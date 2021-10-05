@@ -1,0 +1,51 @@
+<h2>
+  Pipes for String
+</h2>
+<h4>{{name}}</h4>
+<h4>{{name | lowercase}}</h4>
+<h4>{{name | uppercase}}</h4>
+<h4>{{name | titlecase}}</h4>
+<h4>{{name | slice:10}}</h4>
+
+<h2>
+  Pipes for JSON output
+</h2>
+<h4>{{Institute | json}}</h4>
+
+<h2>
+  Pipes for Numbers
+</h2>
+<h4>{{no | number : '1.2-3'}}</h4>
+<h4>{{no | number : '3.2-5'}}</h4>
+<h4>{{no | number : '3.4-5'}}</h4>
+<h4>{{no | number : '4.5-7'}}</h4>
+
+
+<h2>
+  Pipes for Currency
+</h2>
+<h4>{{0.78 | percent}}</h4>
+<h4>{{78 | currency}}</h4>
+<h4>{{78 | currency: 'INR'}}</h4>
+
+<h2>
+  Pipes for Date
+</h2>
+<h4>{{today}}</h4>
+<h4>{{today | date:'short'}}</h4>
+<h4>{{today | date: 'shortDate' }}</h4>
+<h4>{{today | date: 'shortTime' }}</h4>
+<h4> {{ today | date : 'yyyy'}} </h4>
+<h4> {{ today | date : 'MM'}} </h4>
+<h4> {{ today | date : 'dd'}} </h4>
+
+
+
+<!-- <input type="date" [(ngModel)]="age">
+<button type="button" (click)="ageCalculator()"> Calcular </button>
+
+<h4>{{showAge}}</h4> -->
+
+
+
+

@@ -1,11 +1,15 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { MarvellousPipePipe } from './marvellous-pipe.pipe';
+import { AngularPipe } from './angular.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MarvellousPipePipe,
+    AngularPipe
   ],
   imports: [
     BrowserModule
